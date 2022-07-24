@@ -31,17 +31,25 @@ ul{
   }
 
 .navbar{
+
   position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 1rem;
-  padding: 0.8rem 1.5rem;
+
+  bottom: 0rem;
+
+  width: 100%;
+
+  padding: 0.8rem 0rem;
+
   display: flex;
-  gap: 2rem;
-  border: 0.1rem solid black;
-  border-radius: 10rem;
+
+  justify-content: space-around;
+
+  border-top: 0.1rem solid black;
+
   transition: all 150ms ease-in-out;
+
   z-index: 99;
+
   }
 
 .scroll-down .navbar{
