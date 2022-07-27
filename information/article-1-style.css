@@ -1,0 +1,271 @@
+/* Ajustes básicos de todo el documento y propiedades generales*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+  --background: #272822;
+  --comment: #75715e;
+  --red: #f92672;
+  --orange: #fd971f;
+  --light-orange: #e69f66;
+  --yellow: #e6db74;
+  --green: #a6e22e;
+  --blue: #66d9ef;
+  --purple: #ae81ff;
+  --color-1: #dd2c00;
+  --color-2: #ff6d00;
+  --color-3: #ffab00;
+  --color-4: #ffd600;
+  --color-5: #aeea00;
+  --html: #2962ff;
+  --css: #d50000;
+  --javascript: #ffd600;
+  --b: #c8e6c9;
+  --comment-page: #f5f5f5;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  /*  Imposibilita el copiar el texto al que se aplique */
+  user-select: none;
+}
+/*================================================================================================================================================Estilos del Header
+================================================
+================================================================================================*/
+header{
+  font-family: 'Noto Sans Display', sans-serif;
+}
+header{
+  display: flex;
+ } 
+ul{
+  list-style: none;
+  } 
+
+.header__line{
+  border-bottom: 0.1rem solid black;
+  }
+
+.header__title{
+  font-size: 1.4rem;
+  margin: auto;
+  }
+
+.navbar{
+  background-color: #FFFFFF;
+  position: fixed;
+  bottom: 0rem;
+  width: 100%;
+  padding: 0.8rem 0rem;
+  display: flex;
+  justify-content: space-around;
+  border-top: 0.1rem solid black;
+  transition: all 150ms ease-in-out;
+  z-index: 99;
+  }
+
+.scroll-down .navbar{
+bottom: -4rem;
+ } 
+
+.navbar__icon svg{
+  width: 1.5rem;
+  height: 1.5rem;
+  }
+
+.navbar__icon--javascript{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+ } 
+
+li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ /*================================================================================================================================================Estilos del artículo
+================================================
+================================================================================================*/
+article {
+  font-family: "Roboto", sans-serif;
+  padding: 2rem 1rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.9rem;
+  margin: 0 0 2rem 0;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.6rem;
+  margin: 0.5rem;
+}
+
+b {
+  background-color: var(--b);
+}
+
+code {
+  position: relative;
+  display: block;
+  color: #ffffff;
+  background-color: var(--background);
+  border-radius: 0.4rem;
+  max-width: 100%;
+  padding: 0.5rem;
+  margin: 3rem 0 0 0;
+}
+
+.html::before{
+  background-color: var(--html);
+  content: "HTML";
+}
+
+.css::before{
+  background-color: var(--css);
+  content: "CSS";
+}
+
+.javascript::before{
+  background-color: var(--javascript);
+  content: "JS";
+}
+
+.html::before, 
+.css::before, 
+.javascript::before{
+  color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0.2rem 0.3rem;
+  border-radius: 0.4rem 0 0 0;
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.grid-center {
+  display: grid;
+  place-items: center;
+}
+
+.block {
+  display: block;
+}
+.margin-s {
+  margin: 1rem 0;
+}
+
+.bold {
+  font-weight: bold;
+  color: #004d40;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+.comment {
+  color: var(--comment);
+}
+
+.red {
+  color: var(--red);
+}
+
+.green {
+  color: var(--green);
+}
+
+.orange {
+  color: var(--orange);
+}
+
+.li-orange {
+  color: var(--light-orange);
+}
+
+.yellow {
+  color: var(--yellow);
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.purple {
+  color: var(--purple);
+}
+
+.color-1 {
+  background-color: var(--color-1);
+}
+
+.color-2 {
+  background-color: var(--color-2);
+}
+
+.color-3 {
+  background-color: var(--color-3);
+}
+
+.color-4 {
+  background-color: var(--color-4);
+}
+
+.color-5 {
+  background-color: var(--color-5);
+}
+
+/* PONER AQUÍ EL CÓDIGO PARTICULAR DE CADA ARTÍCULO*/
+
+.elemento-1 {
+  z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.elemento-2 {
+  z-index: 80;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.elemento-2,
+.elemento-3 {
+  transition: all 0.3s ease-out;
+}
+
+.elemento-3 {
+  z-index: 70;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.elemento-1:hover ~ .elemento-2 {
+  width: 3rem;
+  height: 3rem;
+}
+
+.elemento-1:hover ~ .elemento-3 {
+  width: 4rem;
+  height: 4rem;
+}
+
+/*================================================================================================================================================NUEVOS ESTILOS
+================================================
+================================================================================================*/
