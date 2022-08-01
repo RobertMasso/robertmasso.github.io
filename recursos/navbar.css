@@ -1,0 +1,69 @@
+/*======BASICS======*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*, *::after, *::before {
+  padding: 0;
+  margin:0;
+    /*  Imposibilita el copiar el texto al que se aplique
+  user-select: none;*/
+} 
+
+body{
+  height: 100rem;
+}
+
+header, nav{
+font-family: 'Noto Sans Display', sans-serif;
+/*font-family: 'Roboto', sans-serif; */
+ } 
+
+.navbar-main header{
+  display: flex;
+ } 
+.navbar-main ul{
+  list-style: none;
+  } 
+
+.navbar-main .header__line{
+  border-bottom: 0.1rem solid black;
+  }
+
+.navbar-main .header__title{
+  font-size: 1.4rem;
+  margin: auto;
+  }
+
+.navbar-main .navbar{
+  position: fixed;
+  bottom: 0rem;
+  width: 100%;
+  padding: 0.8rem 0rem;
+  display: flex;
+  justify-content: space-around;
+  border-top: 0.1rem solid black;
+  transition: all 150ms ease-in-out;
+  z-index: 99;
+  }
+
+.scroll-down .navbar{
+bottom: -4rem;
+ } 
+
+.navbar-main .navbar__icon svg{
+  width: 1.5rem;
+  height: 1.5rem;
+  }
+
+.navbar-main .navbar__icon--javascript{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+ } 
+
+.navbar-main li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ /* CÓDIGO NUEVO */
