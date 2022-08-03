@@ -18,23 +18,24 @@ font-family: 'Noto Sans Display', sans-serif;
 /*font-family: 'Roboto', sans-serif; */
  } 
 
-.navbar-main header{
+header{
   display: flex;
  } 
-.navbar-main ul{
+
+ul{
   list-style: none;
   } 
 
-.navbar-main .header__line{
+.header__line{
   border-bottom: 0.1rem solid black;
   }
 
-.navbar-main .header__title{
+.header__title{
   font-size: 1.4rem;
   margin: auto;
   }
 
-.navbar-main .navbar{
+.navbar{
   position: fixed;
   bottom: 0rem;
   width: 100%;
@@ -50,18 +51,18 @@ font-family: 'Noto Sans Display', sans-serif;
 bottom: -4rem;
  } 
 
-.navbar-main .navbar__icon svg{
+.navbar__icon svg{
   width: 1.5rem;
   height: 1.5rem;
   }
 
-.navbar-main .navbar__icon--javascript{
+.navbar__icon--javascript{
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
  } 
 
-.navbar-main li{
+li{
   display: flex;
   justify-content: center;
   align-items: center;
