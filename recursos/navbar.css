@@ -13,6 +13,10 @@ body{
   height: 100rem;
 }
 
+a{
+  text-decoration: none;
+} 
+
 header, nav{
 font-family: 'Noto Sans Display', sans-serif;
 /*font-family: 'Roboto', sans-serif; */
