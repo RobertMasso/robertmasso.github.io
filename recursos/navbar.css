@@ -17,11 +17,11 @@ body{
 header, nav{
 font-family: 'Noto Sans Display', sans-serif;
 /*font-family: 'Roboto', sans-serif; */
-background-color: #FFFFFF;
  } 
 
 header{
   display: flex;
+  background-color: #FFFFFF;
  } 
 
 ul{
@@ -47,6 +47,7 @@ ul{
   border-top: 0.1rem solid black;
   transition: all 150ms ease-in-out;
   z-index: 99;
+  background-color: #FFFFFF;
   }
 
 .scroll-down .navbar{
