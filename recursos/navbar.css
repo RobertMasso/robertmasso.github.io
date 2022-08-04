@@ -15,6 +15,10 @@ body{
 
 a{
   text-decoration: none;
+/* Esto evita que los iconos del nav varíen
+de posición al cambiar de una página a otra*/
+  display: block;
+  text-size: 0;
 } 
 
 header, nav{
