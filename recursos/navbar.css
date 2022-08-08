@@ -13,7 +13,7 @@ body{
   height: 100rem;
 }
 
-a{
+nav a{
   text-decoration: none;
   color: black;
 /* Esto evita que los iconos del nav varíen
