@@ -5,7 +5,7 @@
 }
 
 a{
- color: black;
+  color: black;
   text-decoration: none;
  } 
 .card-simple{
@@ -33,6 +33,7 @@ a{
 
 .card-simple__title {
   margin: 0 0 0.9rem 0;
+  color: black;
 }
 
 .card-simple__row {
