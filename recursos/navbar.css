@@ -63,16 +63,10 @@ ul{
 bottom: -4rem;
  } 
 
-.navbar__icon svg{
-  width: 1.5rem;
-  height: 1.5rem;
-  }
-
-.navbar__icon--javascript{
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 500;
- } 
+ .navbar__icon object{
+   width: 1.6rem;
+   height: 1.6rem;
+ }
 
 li{
   display: flex;
