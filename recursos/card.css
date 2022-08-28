@@ -2,6 +2,7 @@
 @import "colors.css";
 .card-simple{
   font-family: 'Open Sans', sans-serif;
+  user-select:none;
 }
 
 a{
@@ -16,7 +17,6 @@ a{
   position: relative;
   margin: 1rem;
   padding: 1rem;
-  border-radius: 2px;
   background-color: #ffffff;
 }
 
@@ -28,8 +28,8 @@ a{
   border: 2.5px solid black;
   position: absolute;
   z-index: -1;
-  bottom: -0.46rem;
-  right: -0.46rem;
+  bottom: -0.4rem;
+  right: -0.4rem;
 }
 
 .card-simple__title {
@@ -49,18 +49,20 @@ a{
 }
 
 
-
-#card-muestra-1::after {
-  background-color: #ff7360;
-}
-
-#card-muestra-2::after {
-  background-color: #ffff51;
-}
-
-
 /*========================================================================================================================Animaciones y transform===================
 ================================================================================================*/
-.card-simple:hover .card-simple__title{
+.card-simple:active .card-simple__title{
   text-decoration: underline;
  } 
+
+.card-simple:active{
+  bottom: -0.4rem;
+  right: -0.4rem;
+ } 
+
+.card-simple:active::after{
+
+  bottom: 0rem;
+  right:  0rem;
+ } 
+ 
