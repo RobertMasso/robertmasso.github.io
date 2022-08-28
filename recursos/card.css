@@ -65,4 +65,56 @@ a{
   bottom: 0rem;
   right:  0rem;
  } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=====ASIGNACION DE LOS COLORES DE LAS CARDS===========================================================================================================================
+================================================
+================================================================================================*/
  
+.color-1::after{
+  background-color: var(--1);
+}
+
+.color-2::after{
+  background-color: var(--2);
+} 
+
+.color-3::after{
+  background-color: var(--3);
+}
+
+.color-4::after{
+  background-color: var(--4);
+}
+
+.color-5::after{
+  background-color: var(--5);
+}
+
+.color-6::after{
+  background-color: var(--6);
+}
+
+.color-7::after{
+  background-color: var(--7);
+}
+
+
+
+
+
+
+
