@@ -3,6 +3,7 @@
 .card-simple{
   font-family: 'Open Sans', sans-serif;
   user-select:none;
+cursor-pointer: none;
 }
 
 a{
@@ -28,8 +29,8 @@ a{
   border: 2.5px solid black;
   position: absolute;
   z-index: -1;
-  bottom: -0.4rem;
-  right: -0.4rem;
+  bottom: -0.40rem;
+  right: -0.40rem;
 }
 
 .card-simple__title {
@@ -60,13 +61,14 @@ a{
   right: -0.4rem;
  } 
 
+/*
 .card-simple:active::after{
 
   bottom: 0rem;
   right:  0rem;
  } 
 
-
+*/
 
 
 
